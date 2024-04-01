@@ -54,7 +54,7 @@ No modules.
 | <a name="input_name"></a> [name](#input\_name) | Name of the storage gateway vm that will be created in vsphere | `string` | `"aws-storage-gateway"` | no |
 | <a name="input_os_size"></a> [os\_size](#input\_os\_size) | Size of the OS disk of the VM. Specified in gigabytes, default is the current VM default. Likely doesn't need to be modified | `string` | `"80"` | no |
 | <a name="input_provisioning_type"></a> [provisioning\_type](#input\_provisioning\_type) | Disk provisioning type for the vm and all attached disks | `string` | `"thick"` | no |
-| <a name="input_remote_ovf_url"></a> [remote\_ovf\_url](#input\_remote\_ovf\_url) | URL where the aws storage gateway ova is hosted. | `string` | `"https://d28e23pnuuv0hr.cloudfront.net/aws-storage-gateway-latest.ova"` | no |
+| <a name="input_remote_ovf_url"></a> [remote\_ovf\_url](#input\_remote\_ovf\_url) | URL where the aws storage gateway ova is hosted. | `string` | `"https://dd958of58tzpr.cloudfront.net/aws-storage-gateway-file-s3.ova"` | no |
 
 ## Outputs
 

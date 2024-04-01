@@ -44,7 +44,7 @@ data "aws_ami" "sgw_ami" {
 
   filter {
     name   = "name"
-    values = ["aws-storage-gateway-*"]
+    values = ["aws-storage-gateway-FILE_S3*"]
   }
 }
 
